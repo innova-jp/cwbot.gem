@@ -15,7 +15,6 @@ module Cwbot
       http = build_request(url)
       req = Net::HTTP::Post.new(URI.parse(url).path, {"X-ChatWorkToken" => api_key})
       req.body = "body=#{body}"
-      pp http
       http.start do |h|
         @response = h.request(req)
       end
