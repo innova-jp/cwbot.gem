@@ -21,9 +21,9 @@ module Cwbot
       res = ApiRequest.get_request(url,@api_key)
     end
 
-    def post_message(to_room)
+    def post_message(to_room,body)
       url = @api_url+"/rooms/#{to_room}/messages"
-      res = ApiRequest.post_request(url,"test",@api_key)
+      res = ApiRequest.post_request(url,body,@api_key)
     end
   end
 
