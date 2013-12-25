@@ -19,6 +19,7 @@ Or install it yourself as:
 ## Usage
 
 in a ruby code
+
     require 'rubygems'
     require 'cwbot'
 
