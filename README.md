@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+in a ruby code
+    require 'rubygems'
+    require 'cwbot'
+
+    cw = Cwbot::Cwbot.new("YOUR API KEY")
+    cw.post_message(ROOM_ID, "本文")
 
 ## Contributing
 
