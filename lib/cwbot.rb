@@ -13,7 +13,7 @@ module Cwbot
       end
 
       @api_key = key
-      @api_url = "https://api.chatwork.com/v1"
+      @api_url = "https://api.chatwork.com/v2"
     end
 
     def get_rooms
